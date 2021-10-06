@@ -2,7 +2,7 @@
 ARG dist=ubuntu
 ARG tag=latest
 #FROM ${dist}:${tag}
-FROM golang:1.11-stretch
+FROM golang:1.16.8-stretch
 
 MAINTAINER Sukchan Lee <acetcom@gmail.com>
 
